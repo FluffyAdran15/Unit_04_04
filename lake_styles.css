@@ -1,0 +1,92 @@
+﻿@charset "utf-8"
+@font-face{
+    font-family:champagne;
+    src:url(cac_champagne.tff)format('tff'),
+    url(cac_champange.woff) format('woff'),
+    url(cac_champange.wolf2)format('woff2');
+ }
+ @font-face{
+    font-family: Dobkin;
+    src: url(DobkinPlain.ttf) format('tff'),
+     url(DobkinPlain.woff) format('woff'),
+     url(DobkinPlain.woff2) format('woff2');
+ }
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author:Adrian soliz 
+   Date:   9/16/19
+   
+   Filename: lake_styles.css
+
+*/
+/*structual styles*/
+html{
+    background-color:rgb(243, 184, 141) ;
+    
+} body{
+    background-color: rgb(252, 236, 203);
+    font-family: 'Palatino Linotype', 'Book Antiqua', palatino ,serif; 
+}
+h1, h2{
+    font-weight: normal;
+}
+nav a{
+    text-decoration: none;
+}
+footer{
+    background-color: rgb(143, 61, 75);
+    color: whitesmoke;
+    text-align: center;
+   padding-bottom: 10px;
+   padding-top: 10px;
+}
+/*nav style*/
+nav#mainlink a{
+    background-color: rgb(30, 11, 64);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav#mainlink a:visited ,nav#mainlinka:link{
+    color: rgb(236, 195, 195);
+}
+nav#mainlink a:hover ,nav#mainlink a:active{
+    color: black;
+    background-color: rgb(255, 166, 125);
+}
+/*section style*/
+section#leftcol > h1{
+    font-family: dobkin, sans-serif;
+    font-size: 3em;
+    margin: 8px;
+}
+#leftcol em{
+    font-family: champange, serif;
+    color: rgb(188, 129, 243);
+    font-size: 1.1em;
+}
+section#leftcol p{
+    
+    padding-left: 32px;
+    padding-right: 2px;
+}
+section#rightcol{
+    background-color:rgb(201, 157, 177);
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 350px;
+}
+section#rightcol h2{
+    text-align: center;
+}
+section#rightcol ul{
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
